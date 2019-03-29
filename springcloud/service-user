@@ -9,3 +9,13 @@ spring:
     port: 5672
     username: yushen
     password: 123123
+
+# Actuator 健康检查
+management:
+  endpoint:
+    health:
+      show-details: always # /actuator/health 显示详情
+  endpoints:
+    web:
+      exposure:
+        include: "*"
