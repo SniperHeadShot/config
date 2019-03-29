@@ -1,3 +1,5 @@
-thread:
-  pool:
-    size: 5
+spring1:
+  application1:
+    name1: service-user1
+
+spring2: service-user2
