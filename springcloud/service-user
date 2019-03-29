@@ -1,0 +1,11 @@
+# 配置 端口
+server:
+  port: 8900
+
+# 配置中心配置
+spring:
+  rabbitmq:
+    host: 101.132.45.166
+    port: 5672
+    username: yushen
+    password: 123123
